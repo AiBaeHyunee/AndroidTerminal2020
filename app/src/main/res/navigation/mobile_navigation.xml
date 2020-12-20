@@ -22,4 +22,9 @@
         android:name="com.example.terminal2020_shenaijia2018110532.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_weather"
+        android:name="com.example.terminal2020_shenaijia2018110532.ui.weather.WeatherFragment"
+        android:label="@string/title_weather"
+        tools:layout="@layout/weather_fragment" />
 </navigation>
