@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.terminal2020_shenaijia2018110532">
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND SERVICE" />
+
 
     <application
         android:allowBackup="true"
@@ -14,7 +18,13 @@
         android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+        <activity android:name=".ui.notifications.NotificationActivity"></activity>
         <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".ui.dashboard.DashboardActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
