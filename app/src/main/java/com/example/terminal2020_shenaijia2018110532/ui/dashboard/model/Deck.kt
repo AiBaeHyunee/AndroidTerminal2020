@@ -1,6 +1,6 @@
-package com.example.cardgame_shenaijia.model
+package com.example.terminal2020_shenaijia2018110532.ui.dashboard.model
 
-import com.example.cardgame_shenaijia.model.Card
+import com.example.terminal2020_shenaijia2018110532.ui.dashboard.model.Card
 import java.util.Random
 
 class Deck() {

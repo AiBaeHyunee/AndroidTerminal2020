@@ -1,6 +1,4 @@
-package com.example.cardgame_shenaijia.model
-
-import com.example.cardgame_shenaijia.model.Card
+package com.example.terminal2020_shenaijia2018110532.ui.dashboard.model
 
 class CardMatchingGame(val count: Int)  {
     var score = 0

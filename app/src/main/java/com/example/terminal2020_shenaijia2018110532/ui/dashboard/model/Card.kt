@@ -1,4 +1,4 @@
-package com.example.cardgame_shenaijia.model
+package com.example.terminal2020_shenaijia2018110532.ui.dashboard.model
 
 class Card(private var suit: String, private var rank: String, var isChosen:Boolean = false, var isMatched:Boolean = false)  {
     companion object {

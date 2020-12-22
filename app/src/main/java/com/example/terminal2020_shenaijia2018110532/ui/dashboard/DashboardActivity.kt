@@ -6,12 +6,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.cardgame_shenaijia.model.CardMatchingGame
+import com.example.terminal2020_shenaijia2018110532.ui.dashboard.model.CardMatchingGame
 import com.example.terminal2020_shenaijia2018110532.R
 
 import kotlinx.android.synthetic.main.fragment_dashboard.*
 
-var game:CardMatchingGame = CardMatchingGame(24)
+var game: CardMatchingGame = CardMatchingGame(24)
 
 class DashboardActivity : AppCompatActivity() {
 
