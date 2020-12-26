@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">terminal2020_Shenaijia2018110532</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Talk</string>
+    <string name="title_dashboard">Game</string>
+    <string name="title_notifications">Music</string>
     <string name="title_weather">Weather</string>
     <string name="play">Play</string>
     <string name="pause">PAUSE</string>
